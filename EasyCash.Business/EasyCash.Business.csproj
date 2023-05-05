@@ -17,7 +17,12 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    
+    <ProjectReference Include="..\EasyCash.DataAccess\EasyCash.DataAccess.csproj" />
+    <ProjectReference Include="..\EasyCash.Entities\EasyCash.Entities.csproj" />
   </ItemGroup>
 
 </Project>
