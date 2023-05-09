@@ -9,6 +9,7 @@ namespace EasyCash.Entities.Concrete;
         public string District { get; set; }
         public string City { get; set; }
         public string ImageUrl { get; set; }
+        public virtual List<CustomerAccount> CustomerAccounts { get; set; }
 
 
     }
